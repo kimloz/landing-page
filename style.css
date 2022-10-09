@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-items: space-between;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 24px 48px;
+    margin: -8px;
+}
+
+.logo {
+    flex: auto;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+}
+
+li > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
