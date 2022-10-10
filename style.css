@@ -135,14 +135,22 @@ ul { /* I think this still needs to be centered vertically? */
 }
 
 /* quote */
-.quote {
+.quote { /* This still needs to be light weight */
     padding-top: 64px;
     padding-bottom: 64px;
     flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
 }
 
 .author {
     margin-left: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 /* sign up */
