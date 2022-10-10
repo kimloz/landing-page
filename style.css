@@ -47,7 +47,7 @@ li > a {
     /*margin: 0 -8px 0 -8px;*/
 }
 
-.subject {
+.hero > .left > .subject {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
@@ -78,3 +78,5 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/* information area */
