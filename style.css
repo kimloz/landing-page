@@ -57,6 +57,7 @@ ul { /* I think this still needs to be centered vertically? */
     align-items: flex-start;
     justify-content: space-between;
     flex: 1;
+    gap: 8px;
 }
 
 .hero > .left > .title {
