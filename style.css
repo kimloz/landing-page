@@ -1,0 +1,16 @@
+.header,
+.hero,
+.info,
+.quote,
+.sign-up,
+.footer {
+    border: 2px solid;
+}
+
+.logo, .header-links, /*header*/
+.hero > .left, .hero > .right, /*hero*/
+.info > .title, .img-content, /*information*/
+.quote > div, .author /*quote*/
+.sign-up > .left, button /*sign-up*/ {
+    border: 1px solid;
+}
