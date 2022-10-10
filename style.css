@@ -5,12 +5,96 @@
 .sign-up,
 .footer {
     border: 2px solid;
+    display: flex;
+    padding: 8px 32px;
 }
 
 .logo, .header-links, /*header*/
 .hero > .left, .hero > .right, /*hero*/
 .info > .title, .img-content, /*information*/
-.quote > div, .author /*quote*/
-.sign-up > .left, button /*sign-up*/ {
+.quote > div, .author, /*quote*/
+.sign-up > .left /*sign-up*/ {
     border: 1px solid;
+}
+
+/* header */
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.logo {
+    flex: auto;
+}
+
+/* hero */
+.hero > .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero > .left > .caption {
+    text-align: start;
+}
+
+.right {
+    width: 400px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* info */
+.info {
+    flex-direction: column;
+}
+
+.info > .title {
+    text-align: center;
+}
+
+.img {
+    border: 1px solid;
+    width: 160px;
+    height: 160px;
+}
+
+.img-content {
+    display: flex;
+}
+
+.item {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+/* quote */
+.quote {
+    flex-direction: column;
+}
+
+.author {
+    margin-left: auto;
+}
+
+/* sign up */
+.sign-up > button {
+    margin-left: auto;
+}
+
+/* footer */
+.footer {
+    justify-content: center;
 }
